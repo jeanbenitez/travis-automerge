@@ -1,3 +1,5 @@
+#!/bin/bash -e
+
 if [ "$TRAVIS_BRANCH" != "dev" ]; then 
     exit 0;
 fi
